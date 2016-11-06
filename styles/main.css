@@ -1,0 +1,339 @@
+/*header css begins*/
+#header {
+	background: url("../images/headerbg.png") repeat-x scroll 0 0 #FFF;
+	height: 105px;
+}
+#header .contWidth {
+	margin: 0 auto;
+	position: relative;
+	height: 100px;
+	width: 990px;
+    z-index: 100;
+}
+#header .logo {
+	float: left;
+	margin: 0 0 0 10px;
+	line-height: 80px;
+}
+.mainNav {
+	position: absolute;
+	top: 68px;
+	left: 0px;
+	height: 37px;
+	line-height: 37px;
+	width: 990px;
+	z-index: 100;
+	background-color: #4A4A4A;
+}
+.mainNav .nav {
+	display: inline;
+	float: left;
+	margin-left: 25px;
+}
+.mainNav ul li {
+	float: left;
+	display: inline;
+	margin-right: 14px;
+	position: relative;
+	z-index: 100;
+}
+.mainNav ul li a {
+	display: block;
+	padding: 0 8px;
+	font-weight: 700;
+	color: #FFF;
+	font-size: 14px;
+}
+.jnNav {
+    background: #FFF;
+    border: 1px solid #B1B1B1;
+	border-top: 0;
+    left: 0; /*下拉框，相对父元素*/
+    overflow: hidden;
+    position: absolute;
+    top: 37px;
+    width: 320px;
+    z-index: 1000;
+	display: none;
+}
+.jnNav .subitem {
+    float: left;
+    height: auto !important;
+    min-height: 50px; /*下拉框的最小高度*/
+    padding: 8px 10px;
+    width: 450px;
+}
+.jnNav .subitem dl {
+    border-top: 1px dashed #C4C4C4;
+    overflow: hidden;
+    padding: 8px 0;
+	float: left;
+}
+.jnNav .subitem .fore {
+    border-top-style: none;
+    padding-top: 0;
+}
+.jnNav .subitem dt {
+    float: left;
+    font-weight: bold;
+    line-height: 16px;
+    padding: 2px 3px;
+    text-align: center;
+    width: 76px;
+}
+.jnNav .subitem dt a {
+    color: #000;
+    font-weight: 700;
+	font-size: 12px;
+	padding: 0;
+}
+.jnNav .subitem dd {
+    float: left;
+    overflow: hidden;
+    padding: 0;
+    width: 364px;
+}
+.jnNav .subitem em {
+    border-right: 1px solid #CCC;
+    float: left;
+    font-style: normal;
+    height: 14px;
+    line-height: 14px;
+    margin: 5px 0;
+    padding: 0 8px;
+}
+.jnNav .subitem em a {
+    color: #666666;
+    white-space: nowrap;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 0;
+}
+.jnNav .subitem em.noborder {
+    border-right: 0 none;
+}
+/*content css begins*/
+#content {
+	clear: left;
+	margin: 0 auto;
+	position: relative;
+	width: 990px;
+}
+.RM-content {
+	height: 690; /*本来是560px*/
+	overflow: hidden;
+	padding: 10px 0;
+}
+#calendar {
+	float: left;
+	height: 690px; /*本来是460px*/
+	margin: 0 11px 0 0;
+	overflow: hidden;
+	width: 227px;
+}
+#calendar h2 {
+	height: 30px;
+	color: #FFF;
+	line-height: 30px;
+	font-size: 12px;
+	text-indent: 13px;
+	background-color: #6E6E6E;
+	overflow: hidden;
+	width: 227px;/*227*/
+}
+.cal-info {
+	border: 1px solid #6E6E6E;
+	border-style: none solid solid;
+	border-width: 0 1px 1px;
+	height: 592px; /*根据右侧定左侧高度*/
+	overflow: hidden;
+	padding: 5px 10px 0;
+	width: 205px;
+}
+.cal-info li {
+	margin-top: 10px;
+}
+.cal-info h3 {
+	border-bottom: 1px solid #EEE;
+	height: 24px;
+	line-height: 24px;
+	width: 204px;
+	text-shadow: 2px 2px 20px #CCC;
+	font-weight: bold;
+}
+.cal-info li a {
+	color: #444;
+}
+.cal-info li a:hover {
+	color: #008CD7;
+}
+/*the big screen*/
+#trophy {
+	float: left;
+	height: 320px;
+	margin: 0 11px 0 0;
+	overflow: hidden;
+	position: relative;
+	width: 600px;
+}
+#trophy img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+#trophy div {
+	bottom: 0px;
+	overflow: hidden;
+	position: absolute;
+	float: left;
+}
+#trophy div a {
+	background-color: #444;
+	color: #FFF;
+	display: inline-block;
+	float: left;
+	height: 32px;
+	margin-right: 1px;
+	overflow: hidden;
+	padding: 5px 15px;
+	text-align: center;
+	width: 169px; /*这个尺寸得单独算，三个加起来要跟图片宽度一致*/
+}
+#trophy div a:hover {
+	text-decoration: none;
+}
+#trophy a.blank {
+	background: url("../images/adindex.gif") no-repeat center 39px #37A7D7;
+	color: #FFF;
+}
+/*the news at the top-right corner*/
+#news {
+	float: left;
+	height: 320px;
+	overflow: hidden;
+	width: 139px;/*也是计算出来的*/
+}
+#news_1 {
+	float: left;
+	height: 90px;/*图片儿本身是88px*/
+	margin-bottom: 10px;
+	overflow: hidden;
+	width: 139px;
+	text-align: center;
+}
+#newsInfo {
+	float: left;
+	border: 1px solid #DFDFDF;
+	height: 218px;
+	overflow: hidden;
+}
+#newsInfo h2 {
+	height: 20px;
+	line-height: 20px;
+	border-bottom: 1px solid #DFDFDF;
+	text-indent: 12px;
+}
+#newsInfo ul {
+	float: left;
+	padding: 1px 1px 0 1px;
+}
+#newsInfo li a{
+	color: #666
+}
+#newsInfo li a:hover {
+	color: #008CD7;
+	text-decoration: none;
+}
+#player {
+	float: left;
+	height: 360px; /*图片儿的高度260px, 220*260*/
+	margin: 10px 0 0;
+	overflow: hidden;
+	width: 752px;
+}
+#playerTab {
+	border-bottom: 1px solid #E4E4E4;
+	height: 29px; /*未变，想想如何计算出来的*/
+	position: relative;
+	width: 752px; /*这个同上*/
+	float: left;
+}
+#playerTab h2 {
+	height: 29px;
+	line-height: 29px;
+	left: 0;
+	position: absolute;
+	width: 100px;
+	text-shadow: 2px 2px 20px #CCC;
+	font-weight: bold;
+}
+#playerTab ul {
+	position: absolute;
+	right: -9px; /*为了对齐最右边*/
+	top: 10px;
+}
+#playerTab li {
+	float: left;
+	margin: 0 10px 0 0;
+}
+#playerTab li a {
+	background-color: #E4E4E4;
+	color: #000;
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+	padding: 0 10px;
+}
+#playerTab .blank a {
+	background-color: #FA5889;
+	color: #FFF;
+	outline: 0 none;
+}
+#playerContent {
+	float: left;
+	height: 260px;
+	overflow: hidden;
+	margin: 8px 5px;
+	width: 776px;
+	position: relative;
+}
+#playerList {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 3200px; /*怎么出来的*/
+}
+#playerContent li {
+	float: left;
+	height: 260px;
+	overflow: hidden;
+	padding: 0 5px;
+	position: relative;
+	width: 240px;
+}
+#playerContent li img {
+	position: absolute;
+	left: 13px;
+	top: 0;
+}
+#playerContent li span {
+	background-color: #EFEFEF;
+	position: absolute;
+	bottom: 0;
+	left: 13px;
+	color: #666;
+	display: block;
+	font-size: 14px;
+	height: 24px;
+	line-height: 24px;
+	overflow: hidden;
+	text-align: center;
+	width: 220px;
+}
+#playerContent li a {
+	color: #666;
+}
+#playerContent li a:hover {
+	color: #008CD7;
+	text-decoration: none;
+}

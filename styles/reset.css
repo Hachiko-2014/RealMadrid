@@ -1,0 +1,15 @@
+article,aside,blockquote,body,button,code,dd,details,div,dl,dt,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,hr,input,legend,li,menu,nav,ol,p,pre,section,td,textarea,th,ul{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;color:#333;}
+address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal;}
+ol,ul{list-style:none;}
+a,ins{text-decoration:none;}
+a:hover{text-decoration:underline;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+fieldset,img{border:0;}
+button,input,select,textarea{font-size:100%;}
+html{color:#000;}
+small{font-size:12px;}
+article,aside,details,figcaption,figure,footer,header,hgroup,iframe,menu,nav,section{display:block;}
+body,button,input,select,textarea{font:12px/1.5 tahoma,"microsoft yahei","\5FAE\8F6F\96C5\9ED1";}
+.clear{clear:both;float:none;height:0;overflow:hidden;}
